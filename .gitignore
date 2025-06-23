@@ -1,0 +1,11 @@
+# Ignore all class files by default
+*.class
+
+# But allow specific directory and files from FOP
+!build/
+!build/classes/
+!build/classes/FOP/
+!build/classes/FOP/*.class
+
+# Ignore FOP1 entirely
+build/classes/FOP1/

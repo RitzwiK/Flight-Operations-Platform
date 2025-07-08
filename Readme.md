@@ -103,7 +103,7 @@ Launch Main.java from your IDE.
 
 Use dummy credentials or create a new user via the AddCustomer screen.
 
-📝 Database Tables
+## 📝 Database Tables
 | Table Name     | Purpose                              |
 | -------------- | ------------------------------------ |
 | `customer`     | Stores passenger details             |
@@ -111,7 +111,7 @@ Use dummy credentials or create a new user via the AddCustomer screen.
 | `bookedflight` | Booking history                      |
 | `cancelFlight` | Cancellation logs                    |
 
-📌 Future Improvements
+## 📌 Future Improvements
 •User authentication system
 
 •Real-time flight availability

@@ -84,39 +84,39 @@ Flight-Operations-Platform/
 1. **Clone this repo:**
    ```bash
    git clone https://github.com/RitzwiK/Flight-Operations-Platform.git
-Import into IDE:
-
+2. Import into IDE:
 Recommended: NetBeans or IntelliJ IDEA with GUI support.
 
-Configure Database:
+3. Configure Database:
 
-Start MySQL server.
+Start your MySQL server.
 
-Import flightdb.sql located in database/ folder.
+Import flightdb.sql from the database/ folder.
 
-Update JDBC connection strings in Java files if necessary.
+Update JDBC connection strings in the Java files if needed.
 
-Run the application:
+4. Run the application:
 
-Run Main.java from your IDE.
+Launch Main.java from your IDE.
 
-Login with dummy credentials or add new via AddCustomer.
+5. Login:
+
+Use dummy credentials or create a new user via the AddCustomer screen.
 
 📝 Database Tables
-customer – Stores passenger details
-
-flight – Stores flight data (ID, destination, price, etc.)
-
-bookedflight – Stores booking history
-
-cancelFlight – Logs cancellations
+| Table Name     | Purpose                              |
+| -------------- | ------------------------------------ |
+| `customer`     | Stores passenger details             |
+| `flight`       | Flight data (ID, destination, price) |
+| `bookedflight` | Booking history                      |
+| `cancelFlight` | Cancellation logs                    |
 
 📌 Future Improvements
-User authentication system
+•User authentication system
 
-Real-time flight availability
+•Real-time flight availability
 
-Cleaner UI/UX using JavaFX or web-based frontend
+•Cleaner UI/UX using JavaFX or web-based frontend
 
-Admin vs User roles
+•Admin vs User roles
 
